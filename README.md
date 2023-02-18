@@ -7,7 +7,7 @@ An implemenation of EDF schedular in freeRTOS and test it with 6 different perio
 This task will monitor rising and falling edge on button 1 and send this event to the consumer task.
 
 * Task 2: "Button_2_Monitor", {Periodicity: 50, Deadline: 50}
-This task will monitor rising and falling edge on button 2 and send this event to the consumer task.
+This task will monitor rising and fallin edge on button 2 and send this event to the consumer task.
 
 * Task 3: "Periodic_Transmitter", {Periodicity: 100, Deadline: 100}
 This task will send preiodic string every 100ms to the consumer task
@@ -24,7 +24,7 @@ This is the consumer task which will write on UART any received string from othe
 * Simso for simulate the tasks and check its schudelability
 
 # Snap of simso results:
-![simulation result](simso.PNG)
+![simulation result](/simso.png)
 
 
 ** Project is implemented and tested on ARM architecutre **

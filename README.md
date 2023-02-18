@@ -27,4 +27,4 @@ This is the consumer task which will write on UART any received string from othe
 ![simulation result](/simso.png)
 
 
-** Project is implemented and tested on ARM architecutre **
+**Project is implemented and tested on ARM architecutre**
